@@ -1,0 +1,93 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 20030228000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "loginsteps.capabilities()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Login into account with correct credentials",
+        "description": "",
+        "id": "login-into-account;login-into-account-with-correct-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 27292275700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to wikipedia login website",
+            "match": {
+              "location": "loginsteps.user_navigates_to_wikipedia_login_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6214038000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters valid username",
+            "match": {
+              "location": "loginsteps.user_enters_valid_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9360342901,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters valid password",
+            "match": {
+              "location": "loginsteps.user_enters_valid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1687549100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on the login button",
+            "match": {
+              "location": "loginsteps.user_clicks_on_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 238100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should be taken into succesful login page",
+            "match": {
+              "location": "loginsteps.user_should_be_taken_into_succesful_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login into account",
+    "description": "exisiting user should be able to login into account using valid credentials",
+    "id": "login-into-account",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
