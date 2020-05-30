@@ -3,10 +3,73 @@
     "line": 1,
     "elements": [
       {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 675105800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user entered search box",
+            "match": {
+              "location": "loginsteps.user_entered_search_box()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10078080900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "users enters \"http://www.wikipedia.org\" address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.wikipedia.org",
+                  "offset": 14
+                }
+              ],
+              "location": "loginsteps.users_enters_address(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8963684100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks go button and seelects english language",
+            "match": {
+              "location": "loginsteps.user_clicks_go_button_and_seelects_english_language()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10497963200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigates to wikipedia login website",
+            "match": {
+              "location": "loginsteps.user_navigates_to_wikipedia_login_website()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
         "before": [
           {
             "result": {
-              "duration": 20030228000,
+              "duration": 22581620900,
               "status": "passed"
             },
             "match": {
@@ -14,7 +77,7 @@
             }
           }
         ],
-        "line": 3,
+        "line": 9,
         "name": "Login into account with correct credentials",
         "description": "",
         "id": "login-into-account;login-into-account-with-correct-credentials",
@@ -23,61 +86,225 @@
         "steps": [
           {
             "result": {
-              "duration": 27292275700,
+              "duration": 5155709900,
               "status": "passed"
             },
-            "line": 4,
-            "name": "User navigates to wikipedia login website",
+            "line": 10,
+            "name": "User enters \"CharanSreeVatsava\" username",
             "match": {
-              "location": "loginsteps.user_navigates_to_wikipedia_login_website()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 6214038000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "User enters valid username",
-            "match": {
-              "location": "loginsteps.user_enters_valid_username()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 9360342901,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "User enters valid password",
-            "match": {
-              "location": "loginsteps.user_enters_valid_password()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1687549100,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "User clicks on the login button",
-            "match": {
-              "location": "loginsteps.user_clicks_on_the_login_button()"
+              "arguments": [
+                {
+                  "val": "CharanSreeVatsava",
+                  "offset": 13
+                }
+              ],
+              "location": "loginsteps.user_enters_username(String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 238100,
+              "duration": 10102768400,
               "status": "passed"
             },
-            "line": 8,
+            "line": 11,
+            "name": "User enters valid password",
+            "match": {
+              "location": "loginsteps.user_enters_valid_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  ";lkjhbnvbgcplk,jmgbnvkbkl,mnbv",
+                  "3333333334512313"
+                ],
+                "line": 12
+              },
+              {
+                "cells": [
+                  "652okjhgvfclkmjnbvc521.,@#$%",
+                  "kI6cMb4M1i*$$X6JamlFtk3bD9#DOdRrJn%o"
+                ],
+                "line": 13
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1877823600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicks on the login button",
+            "match": {
+              "location": "loginsteps.user_clicks_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 231000,
+              "status": "passed"
+            },
+            "line": 15,
             "name": "User should be taken into succesful login page",
             "match": {
               "location": "loginsteps.user_should_be_taken_into_succesful_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 435400900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user entered search box",
+            "match": {
+              "location": "loginsteps.user_entered_search_box()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8336385300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "users enters \"http://www.wikipedia.org\" address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.wikipedia.org",
+                  "offset": 14
+                }
+              ],
+              "location": "loginsteps.users_enters_address(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9100465000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks go button and seelects english language",
+            "match": {
+              "location": "loginsteps.user_clicks_go_button_and_seelects_english_language()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8940431400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigates to wikipedia login website",
+            "match": {
+              "location": "loginsteps.user_navigates_to_wikipedia_login_website()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 19877527700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "loginsteps.capabilities()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Login into account with incorrect credentials",
+        "description": "",
+        "id": "login-into-account;login-into-account-with-incorrect-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6337745100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters \"someoneelse\" username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "someoneelse",
+                  "offset": 13
+                }
+              ],
+              "location": "loginsteps.user_enters_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8025444000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enters valid password",
+            "match": {
+              "location": "loginsteps.user_enters_valid_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  ";lkjhbnvbgcplk,jmgbnvkbkl,mnbv",
+                  "3333333334512313"
+                ],
+                "line": 20
+              },
+              {
+                "cells": [
+                  "652okjhgvfclkmjnbvc521.,@#$%",
+                  "kI6cMb4M1i*$$X6JamlFtk3bD9#DOdRrJn%o"
+                ],
+                "line": 21
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1563238600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User clicks on the login button",
+            "match": {
+              "location": "loginsteps.user_clicks_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User should not be taken into succesful login page",
+            "match": {
+              "location": "loginsteps.user_should_not_be_taken_into_succesful_login_page()"
             },
             "keyword": "Then "
           }
