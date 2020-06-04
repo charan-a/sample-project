@@ -1,1 +1,1 @@
-# sample-project
+# simple-cucumber-project
